@@ -85,7 +85,6 @@ def predict():
 
         # Drop any NaN values
         new_df = new_df.dropna()
-        new_df = new_df.drop(['Class'], axis=1)
         window_size = 8
 
         # Extract features and labels
